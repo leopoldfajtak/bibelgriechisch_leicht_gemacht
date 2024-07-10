@@ -1,0 +1,501 @@
+{
+    "1373366581358": {
+        "css": ".card {\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1373366533469,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Großbuchstabe",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Kleinbuchstabe",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Name",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Name (Lateinisch)",
+                "ord": 3,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Lateinische Aussprache",
+                "ord": 4,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Ausgesprochen wie in",
+                "ord": 5,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Biblical sound",
+                "ord": 6,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1373366581358,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1603441194,
+        "name": "Greek Pronunciation Note",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    1
+                ]
+            ],
+            [
+                1,
+                "any",
+                [
+                    0
+                ]
+            ],
+            [
+                2,
+                "any",
+                [
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<br/>\n{{Biblical sound}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Aussprache Kleinbuchstabe",
+                "ord": 0,
+                "qfmt": "Aussprache: <b>{{Kleinbuchstabe}}</b>\n"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<br/>\n{{Biblical sound}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Aussprache Großbuchstabe",
+                "ord": 1,
+                "qfmt": "Aussprache: <b>{{Großbuchstabe}}</b>\n"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<br/>\n{{Name (Lateinisch)}}\n\n<br/>\n{{Lateinische Aussprache}}\n\n<br/>\n<br/>\nAussprache:\n{{Ausgesprochen wie in}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Buchstabenname",
+                "ord": 2,
+                "qfmt": "<b>{{Kleinbuchstabe}}</b>\n"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1562412710014": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1629819604195,
+        "flds": [
+            {
+                "description": "",
+                "font": "Nimbus Sans [UKWN]",
+                "media": [],
+                "name": "Vorderseite",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Rückseite",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "KanjiStrokeOrders",
+                "media": [],
+                "name": "Begriffe, Inidces",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1562412710014,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1641540612,
+        "name": "Einfach",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 2,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Karte 1",
+                "ord": 0,
+                "qfmt": "{{Vorderseite}}",
+                "scratchPad": true
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1572721866916": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1602188904617,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Vorderseite",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Rückseite",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Eselsbrücke",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1572721866916,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1719998466,
+        "name": "Einfach (beide Richtungen)+",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ],
+            [
+                1,
+                "any",
+                [
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "Lektion7"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}} <br> <br>\n\nLernhilfe: <br>\n{{Eselsbrücke}}\n\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Karte 1",
+                "ord": 0,
+                "qfmt": "{{Vorderseite}}"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Vorderseite}} <br> <br>\n\nLernhilfe: <br>\n{{Eselsbrücke}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Karte 2",
+                "ord": 1,
+                "qfmt": "{{Rückseite}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1572721866918": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1602188904617,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Vorderseite",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Rückseite",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1572721866918,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1719998466,
+        "name": "Einfach+",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "Lektion47"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Karte 1",
+                "ord": 0,
+                "qfmt": "{{Vorderseite}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1603400943896": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1602188904617,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Vorderseite",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Rückseite",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Eselsbrücke",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1603400943896,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1720512340,
+        "name": "Einfach + Eselsbrücke",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "Lektion59"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}} <br> <br>\n\nLernhilfe: <br>\n{{Eselsbrücke}}\n\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Karte 1",
+                "ord": 0,
+                "qfmt": "{{Vorderseite}}\n\n"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1720032556611": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "name": "Text",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Back Extra",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Overlapping",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1720032556611,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1720253723,
+        "name": "Cloze (overlapping)",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0,
+                    2
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "<div id=\"cloze-is-back\" hidden=\"\">{{cloze:Text}}</div>\n{{FrontSide}}\n{{Back Extra}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Cloze",
+                "ord": 0,
+                "qfmt": "<div id=\"cloze-original\" hidden=\"\">{{Text}}</div>\n<div id=\"cloze-anki-rendered\" hidden=\"\">{{cloze:Text}}</div>\n<div id=\"cloze-overlapping-config\" hidden=\"\">{{Overlapping}}</div>\n<div id=\"cloze-js-rendered\"></div>\n\n<script>\n  // This ceremony makes sure the render function is run exactly once:\n  (function() {\n    function escapeRegExp(string) {\n      return string.replace(/[.*+?^${}()|[\\]\\\\]/g, \"\\\\$&\");\n    }\n\n    var alreadyRendered = false;\n\n    function render() {\n      if (alreadyRendered) return;\n\n      var config = document.getElementById(\"cloze-overlapping-config\").innerText.split(/[,\\s|.]+/);\n      var leadingClozes = config[0] === \"0\" ? 0 : (+config[0] || 1);\n      var followingClozes = +config[1] || 0;\n      var showAllClozes = (config[2] || \"true\").toLowerCase() === \"true\"; // Set to false to omit, e.g. for long lyrics/poems\n      var revealAllClozes = (config[3] || \"false\").toLowerCase() === \"true\"; // On the back, reveal other clozes we didnʼt ask for?\n      var revealAllCustomPlaceholders = (config[4] || \"false\").toLowerCase() === \"true\";\n\n      var divOriginal = document.getElementById(\"cloze-original\");\n      var divJsRendered = document.getElementById(\"cloze-js-rendered\");\n\n      var currentCloze = +(\n          (document.body.className.match(/(^|\\s)card(\\d+)(\\s|$)/) || [])[2] ||\n          ((document.getElementById(\"qa_box\") && document.getElementById(\"qa_box\").className && document.getElementById(\"qa_box\").className.match(/(^|\\s)card(\\d+)(\\s|$)/)) || [])[2] ||\n          0\n      );\n\n      var allClozes = (function(){\n        var allMatches = divOriginal.innerHTML.match(/\\{\\{c\\d+::[\\s\\S]*?\\}\\}/g);\n        var res = {};\n        for (var i = 0; i < allMatches.length; i++) {\n          var match = allMatches[i].match(/\\{\\{c(\\d+)::([\\s\\S]*?)(::([\\s\\S]*?))?\\}\\}/);\n          res[+match[1]] = res[+match[1]] || {askAll: false, clozes: {}};\n          if (match[2] === \"ask-all\")\n            res[+match[1]].askAll = true;\n          res[+match[1]].clozes[allMatches[i]] = {content: match[2], placeholder: match[4] ? match[4] : \"...\"};\n        }\n        return res;\n      })();\n\n      var isBackSide = document.getElementById(\"cloze-is-back\") ? true : false;\n\n      var question = divOriginal.innerHTML;\n      for (var i in allClozes) {\n        for (var orig in allClozes[i].clozes) {\n          var replacement = \"\";\n          var markBlue = false;\n          var needle = new RegExp(escapeRegExp(orig), \"g\");\n          if (allClozes[i].askAll)\n            replacement = \"\";\n          else if (i == currentCloze || allClozes[currentCloze].askAll) {\n            markBlue = true;\n            replacement = isBackSide ? allClozes[i].clozes[orig].content : \"[\" + allClozes[i].clozes[orig].placeholder + \"]\";\n          } else if (currentCloze - leadingClozes <= i && i <= currentCloze + followingClozes)\n            replacement = allClozes[i].clozes[orig].content;\n          else if (showAllClozes && !allClozes[i].askAll)\n            replacement = (isBackSide && revealAllClozes) ? allClozes[i].clozes[orig].content : \"[\" + (revealAllCustomPlaceholders ? allClozes[i].clozes[orig].placeholder : \"...\") + \"]\";\n          else {\n            replacement = \"\";\n            // Also get rid of following new lines, commas, dots, etc.\n            needle = new RegExp(escapeRegExp(orig) + \"(<br>|[\\\\s,.])*\", \"g\");\n          }\n          question = question.replace(needle, function () {\n            return (markBlue ? \"<span class=\\\"cloze\\\">\" : \"\") + replacement + (markBlue ? \"</span>\" : \"\");\n          });\n        }\n      }\n\n      alreadyRendered = true;\n      divJsRendered.innerHTML = question;\n    }\n\n    function delayedRender() {\n      if (window.requestAnimationFrame) window.requestAnimationFrame(render); // less flickering\n      else window.setTimeout(render, 0);\n    };\n\n    window.onload = delayedRender();\n    if (document.readyState === \"complete\") delayedRender();\n    else document.addEventListener(\"DOMContentLoaded\", delayedRender);\n\n    // Observe document.body class changes to trigger re-rendering.\n    // This is useful, because Anki doesn’t always start with an up-to-date class list:\n    // https://forums.ankiweb.net/t/card-card-classes-only-injected-separately-now/27387.\n    const observer = new MutationObserver(function(mutationsList, observer) {\n      for (let mutation of mutationsList) {\n        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {\n          delayedRender();\n        }\n      }\n    });\n    observer.observe(document.body, { attributes: true });\n  })();\n</script>"
+            }
+        ],
+        "type": 1,
+        "usn": 0
+    }
+}
